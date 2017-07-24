@@ -10,7 +10,7 @@ Notizen), which can of course be multi line and which have `http://sn`
 as in the `url` field. These multi line `extra` fields were not
 correctly handled by the Ruby version.
 
-The `encdoding/csv` from the standard Go library handles these
+The `encoding/csv` from the standard Go library handles these
 Lastpass export csv files just fine, hence this program.
 
 You will have to have the two Go packages
